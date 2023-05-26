@@ -1,4 +1,13 @@
 @media (min-width:320px) and (max-width: 991px) {
+    .floating-wpp {
+        bottom: 4rem;
+        right: 20px;
+    }
+    .floating-wpp .floating-wpp-button {
+        height: 2rem !important;
+        width: 2rem !important;
+      
+    }
     .aos-animate {
 
         -o-transition-property: none !important;
