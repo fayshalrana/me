@@ -1,6 +1,6 @@
 @media (min-width:320px) and (max-width: 991px) {
     .floating-wpp {
-        bottom: 4rem;
+        bottom: 5rem;
         right: 20px;
     }
     .floating-wpp .floating-wpp-button {
