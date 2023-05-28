@@ -1,6 +1,6 @@
-document.addEventListener("contextmenu", (event) => {
-  event.preventDefault();
-});
+// document.addEventListener("contextmenu", (event) => {
+//   event.preventDefault();
+// });
 
 
 
@@ -214,7 +214,7 @@ $(function () {
       headerTitle: 'Welcome!',
       headerColor: 'navy',
       backgroundColor: 'transparent',
-      buttonImage: '<img src="./images/svg/icons8-whatsapp.svg"/>'
+      buttonImage: '<img src="./images/svg/icons8-whatsapp.svg" alt="/images/svg/icons8-whatsapp.svg" />'
   });
 });
 
