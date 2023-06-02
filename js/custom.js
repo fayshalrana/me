@@ -123,13 +123,6 @@ particlesJS("banner", {
   });
 // prtycal js function 
 
-// Activition code for mixitup 
-
-var containerEl = document.querySelector('.portfoilo_itm');
-
-var mixer = mixitup(containerEl);
-
-
 // slick slider function 
 $(function(){
     

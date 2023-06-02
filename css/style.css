@@ -1084,11 +1084,15 @@ button:hover .icon_3 {
 
 /* protfoilo part css star here  */
 #protfolio {
-  padding: 5rem 0;
   background: url(../images/Background/pexels-kseniya-lapteva-9175713.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.portfolio_overly{
+  padding: 5rem 0;
+  background: #00000040;
+  
 }
 
 .port_heder {
