@@ -10,6 +10,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fayshal Rana</title>
+
+    <link rel="manifest" href="manifest.json" />
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="images/png/logo2.png" />
     <!-- favicon -->
@@ -37,10 +39,6 @@
     <!-- aos link  -->
     <!-- <link href="css/aos.css" rel="stylesheet"> -->
     <!-- aos link  -->
-
-    <!-- venobox link  -->
-    <link rel="stylesheet" href="css/venobox.min.css" />
-    <!-- venobox link  -->
 
     <!-- custom CSS  -->
     <link rel="stylesheet" href="css/style.css" />
@@ -205,6 +203,9 @@
           >
             <div class="about_head">
               <h3>About Me</h3>
+              <button id="install-button" style="display: none">
+                Install App
+              </button>
             </div>
           </div>
         </div>
@@ -620,143 +621,152 @@
 
     <!-- Portfolio part start here  -->
     <section id="protfolio">
-     <div class="portfolio_overly">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-lg-3 m-auto text-center"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <div class="port_heder">
-              <div class="about_head">
-                <h3>My Portfolio</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="protfolio_body">
-            <div class="item1 frbfor">
-              <img src="images/portfolio/app.png" alt="app.png" class="img" />
-              <div class="afimg">
-                <a href="https://fayshalrana.github.io/Apps/" target="_blank">
-                  <div class="prt_in_img">
-                    <span>Go Live</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="item8 frbfor">
-              <img
-                src="images/portfolio/appon.png"
-                alt="appon.png"
-                class="img"
-              />
-              <div class="afimg">
-                <a href="https://fayshalrana.github.io/appon/" target="_blank">
-                  <div class="prt_in_img">
-                    <span>Go Live</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="item2 frbfor">
-              <img
-                src="images/portfolio/realHome.png"
-                alt="realHome.png"
-                class="img"
-              />
-              <div class="afimg">
-                <a
-                  href="https://fayshalrana.github.io/RealHom/"
-                  target="_blank"
-                >
-                  <div class="prt_in_img">
-                    <span>Go Live</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="item3 frbfor">
-              <img
-                src="images/portfolio/Jackpot.png"
-                alt="Jackpot.png"
-                class="img"
-              />
-              <div class="afimg">
-                <div class="prt_in_img">
-                  <a
-                    href="https://fayshalrana.github.io/Jackpot/"
-                    target="_blank"
-                    ><span>Go Live</span></a
-                  >
+      <div class="portfolio_overly">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-3 m-auto text-center"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <div class="port_heder">
+                <div class="about_head">
+                  <h3>My Portfolio</h3>
                 </div>
               </div>
             </div>
-            <div class="item4 frbfor">
-              <img
-                src="images/portfolio/AGENDO.png"
-                alt="AGENDO.png"
-                class="img"
-              />
-              <div class="afimg">
-                <a href="https://fayshalrana.github.io/Agendo/" target="_blank">
-                  <div class="prt_in_img">
-                    <span>Go Live</span>
-                  </div>
-                </a>
+          </div>
+          <div class="row">
+            <div class="protfolio_body">
+              <div class="item1 frbfor">
+                <img src="images/portfolio/app.png" alt="app.png" class="img" />
+                <div class="afimg">
+                  <a href="https://fayshalrana.github.io/Apps/" target="_blank">
+                    <div class="prt_in_img">
+                      <span>Go Live</span>
+                    </div>
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="item5 frbfor">
-              <img
-                src="images/portfolio/velentina.png"
-                alt="velentina.png"
-                class="img"
-              />
-              <div class="afimg">
-                <a
-                  href="https://fayshalrana.github.io/Valentine/"
-                  target="_blank"
-                >
-                  <div class="prt_in_img">
-                    <span>Go Live</span>
-                  </div>
-                </a>
+              <div class="item8 frbfor">
+                <img
+                  src="images/portfolio/appon.png"
+                  alt="appon.png"
+                  class="img"
+                />
+                <div class="afimg">
+                  <a
+                    href="https://fayshalrana.github.io/appon/"
+                    target="_blank"
+                  >
+                    <div class="prt_in_img">
+                      <span>Go Live</span>
+                    </div>
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="item6 frbfor">
-              <img
-                src="images/portfolio/ARCHE-Home.png"
-                alt="ARCHE-Home.png"
-                class="img"
-              />
-              <div class="afimg">
-                <a href="https://fayshalrana.github.io/Arches/" target="_blank">
-                  <div class="prt_in_img">
-                    <span>Go Live</span>
-                  </div>
-                </a>
+              <div class="item2 frbfor">
+                <img
+                  src="images/portfolio/realHome.png"
+                  alt="realHome.png"
+                  class="img"
+                />
+                <div class="afimg">
+                  <a
+                    href="https://fayshalrana.github.io/RealHom/"
+                    target="_blank"
+                  >
+                    <div class="prt_in_img">
+                      <span>Go Live</span>
+                    </div>
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="item7 frbfor">
-              <img
-                src="images/portfolio/Waxom.png"
-                alt="Waxom.png"
-                class="img"
-              />
-              <div class="afimg">
-                <a href="">
+              <div class="item3 frbfor">
+                <img
+                  src="images/portfolio/Jackpot.png"
+                  alt="Jackpot.png"
+                  class="img"
+                />
+                <div class="afimg">
                   <div class="prt_in_img">
-                    <span>Go Live</span>
+                    <a
+                      href="https://fayshalrana.github.io/Jackpot/"
+                      target="_blank"
+                      ><span>Go Live</span></a
+                    >
                   </div>
-                </a>
+                </div>
+              </div>
+              <div class="item4 frbfor">
+                <img
+                  src="images/portfolio/AGENDO.png"
+                  alt="AGENDO.png"
+                  class="img"
+                />
+                <div class="afimg">
+                  <a
+                    href="https://fayshalrana.github.io/Agendo/"
+                    target="_blank"
+                  >
+                    <div class="prt_in_img">
+                      <span>Go Live</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item5 frbfor">
+                <img
+                  src="images/portfolio/velentina.png"
+                  alt="velentina.png"
+                  class="img"
+                />
+                <div class="afimg">
+                  <a
+                    href="https://fayshalrana.github.io/Valentine/"
+                    target="_blank"
+                  >
+                    <div class="prt_in_img">
+                      <span>Go Live</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item6 frbfor">
+                <img
+                  src="images/portfolio/ARCHE-Home.png"
+                  alt="ARCHE-Home.png"
+                  class="img"
+                />
+                <div class="afimg">
+                  <a
+                    href="https://fayshalrana.github.io/Arches/"
+                    target="_blank"
+                  >
+                    <div class="prt_in_img">
+                      <span>Go Live</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item7 frbfor">
+                <img
+                  src="images/portfolio/Waxom.png"
+                  alt="Waxom.png"
+                  class="img"
+                />
+                <div class="afimg">
+                  <a href="">
+                    <div class="prt_in_img">
+                      <span>Go Live</span>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-     </div>
     </section>
     <!-- Portfolio part end here  -->
 
@@ -782,7 +792,7 @@
           >
             <div class="test_item">
               <div class="tst_item_head">
-                <h5>Ayshawriya Roy</h5>
+                <h5>Jon Luc</h5>
               </div>
               <div class="tst_icon">
                 <i class="fa-solid fa-star"></i>
@@ -792,15 +802,14 @@
                 <i class="fa-solid fa-star-half-stroke"></i>
               </div>
               <div class="tst_btm">
-                <h5>CEO at AD. Agency</h5>
+                <h5>One Year With Me</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veni.
+                  "Amazing website! The user interface is clean, intuitive, and
+                  visually appealing. A great experience overall."
                 </p>
               </div>
               <div class="tst_img">
-                <img src="images/testmn1.jpg" alt="testmn1.jpg" />
+                <img src="images/luc.jpg" alt="testmn1.jpg" />
               </div>
             </div>
           </div>
@@ -811,7 +820,7 @@
           >
             <div class="test_item">
               <div class="tst_item_head">
-                <h5>David Hunt</h5>
+                <h5>Melissa Walker</h5>
               </div>
               <div class="tst_icon">
                 <i class="fa-solid fa-star"></i>
@@ -821,15 +830,15 @@
                 <i class="fa-solid fa-star-half-stroke"></i>
               </div>
               <div class="tst_btm">
-                <h5>Chairman at Explore</h5>
+                <h5>Six Month With Me</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veni.
+                  "Fantastic frontend work! The website is fast, interactive,
+                  and beautifully designed. It's a pleasure to navigate and
+                  explore."
                 </p>
               </div>
               <div class="tst_img">
-                <img src="images/testmn2.jpg" alt="testmn2.jpg" />
+                <img src="images/DeniseWright.jpg" alt="testmn2.jpg" />
               </div>
             </div>
           </div>
@@ -840,7 +849,7 @@
           >
             <div class="test_item">
               <div class="tst_item_head">
-                <h5>Ayshawriya Roy</h5>
+                <h5>Denis Wright</h5>
               </div>
               <div class="tst_icon">
                 <i class="fa-solid fa-star"></i>
@@ -850,11 +859,11 @@
                 <i class="fa-solid fa-star-half-stroke"></i>
               </div>
               <div class="tst_btm">
-                <h5>CEO at AD. Agency</h5>
+                <h5>Eight Month With Me</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veni.
+                  "Highly impressed with the frontend design! It's modern,
+                  responsive, and enhances the browsing experience. I would
+                  recommend it!"
                 </p>
               </div>
               <div
@@ -919,7 +928,7 @@
               <div class="skill_bar">
                 <div class="bar">
                   <div class="bar_info">
-                    <span>Photoshop</span>
+                    <span>HTML</span>
                   </div>
                   <div class="progress_line Photoshop">
                     <span></span>
@@ -927,7 +936,7 @@
                 </div>
                 <div class="bar">
                   <div class="bar_info">
-                    <span>Illustrator</span>
+                    <span>CSS & TailwindCSS</span>
                   </div>
                   <div class="progress_line Illustrator">
                     <span></span>
@@ -935,7 +944,7 @@
                 </div>
                 <div class="bar">
                   <div class="bar_info">
-                    <span>Adobe InDesign</span>
+                    <span>SASS</span>
                   </div>
                   <div class="progress_line InDesign">
                     <span></span>
@@ -943,7 +952,7 @@
                 </div>
                 <div class="bar">
                   <div class="bar_info">
-                    <span>Adobe Lightroom</span>
+                    <span>JavaScript / React JS</span>
                   </div>
                   <div class="progress_line Lightroom">
                     <span></span>
@@ -951,7 +960,7 @@
                 </div>
                 <div class="bar">
                   <div class="bar_info">
-                    <span>Adobe Dreamweaver</span>
+                    <span>WordPress</span>
                   </div>
                   <div class="progress_line Dreamweaver">
                     <span></span>
@@ -995,15 +1004,14 @@
               <div class="pp_content_offers">
                 <div class="circle_containing_price_bg">
                   <div class="circle_containing_price">
-                    <h5>$ 19</h5>
+                    <h5>$250</h5>
                     <p>Per Month</p>
                   </div>
                 </div>
 
                 <div class="pricing_offers text-center">
-                  <p>15 Days Unlimited Design</p>
+                  <p>10 Days Unlimited Design</p>
                   <p>Free Flyer Bundle</p>
-                  <p>Customize Design</p>
                   <p>Limited Revision</p>
                   <p class="special_pb">Web Template Design</p>
                 </div>
@@ -1031,16 +1039,15 @@
               <div class="pp_content_offers">
                 <div class="circle_containing_price_bg">
                   <div class="circle_containing_price">
-                    <h5>$ 29</h5>
+                    <h5>$350</h5>
                     <p>Per Month</p>
                   </div>
                 </div>
 
                 <div class="pricing_offers text-center">
-                  <p>30 Days Unlimited Design</p>
+                  <p>15 Days Unlimited Design</p>
                   <p>Free Brochure Bundle</p>
                   <p>Unlimited Revision</p>
-                  <p>Limited Revision</p>
                   <p class="special_pb">Web Template Design</p>
                 </div>
 
@@ -1067,16 +1074,15 @@
               <div class="pp_content_offers">
                 <div class="circle_containing_price_bg">
                   <div class="circle_containing_price">
-                    <h5>$ 39</h5>
+                    <h5>$400</h5>
                     <p>Per Month</p>
                   </div>
                 </div>
 
                 <div class="pricing_offers text-center">
-                  <p>15 Days Unlimited Design</p>
-                  <p>Free Template Bundle</p>
+                  <p>30 Days Unlimited Design</p>
+                  <p>Unlimited Revision</p>
                   <p>Customize Design</p>
-                  <p>Limited Revision</p>
                   <p class="special_pb">Web Template Design</p>
                 </div>
 
@@ -1170,11 +1176,23 @@
         <div class="row">
           <div class="col-lg-4 m-auto text-center">
             <div class="cont_btm_icons">
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-              <a href="#"><i class="fa-brands fa-skype"></i></a>
-              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://www.facebook.com/fayshal.rana.1/" target="_blank"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.reddit.com/user/Fayshal_Rana" target="_blank"
+                ><i class="fa-brands fa-reddit-alien"></i
+              ></a>
+              <a href="https://github.com/fayshalrana" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/fayshal_rana/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/fayshal-rana/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -1220,10 +1238,6 @@
     <!-- slick slider js  -->
     <script src="js/slick.min.js"></script>
     <!-- slick slider js  -->
-
-    <!-- venobox js link  -->
-    <script src="js/venobox.min.js"></script>
-    <!-- venobox js link  -->
 
     <!-- Aos js  -->
     <!-- <script src="js/aos.js"></script> -->

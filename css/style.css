@@ -1561,23 +1561,23 @@ button:hover .icon_3 {
 }
 
 .progress_line.Photoshop span {
-  width: 95%;
+  width: 98%;
 }
 
 .progress_line.Illustrator span {
-  width: 83%;
+  width: 93%;
 }
 
 .progress_line.InDesign span {
-  width: 60%;
+  width: 95%;
 }
 
 .progress_line.Lightroom span {
-  width: 75%;
+  width: 65%;
 }
 
 .progress_line.Dreamweaver span {
-  width: 55%;
+  width: 90%;
 }
 
 .progress_line span::before {
@@ -1618,23 +1618,23 @@ button:hover .icon_3 {
 }
 
 .progress_line.Photoshop span::after {
-  content: "95%";
+  content: "98%";
 }
 
 .progress_line.Illustrator span::after {
-  content: "83%";
+  content: "93%";
 }
 
 .progress_line.InDesign span::after {
-  content: "60%";
+  content: "95%";
 }
 
 .progress_line.Lightroom span::after {
-  content: "75%";
+  content: "65%";
 }
 
 .progress_line.Dreamweaver span::after {
-  content: "48%";
+  content: "90%";
 }
 
 /* skill part css end here  */
