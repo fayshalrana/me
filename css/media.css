@@ -1324,6 +1324,19 @@
         left: 50%;
         top: 49px !important;
     }
+    /* \\\\\\\\\\\\\\\\portfolio part \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+     .protfolio_body {
+        display: flex !important;
+        grid-gap: 20px;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .frbfor{
+        width: 100%;
+        height: 30rem;
+    }
 
     /*////////////////////////////////////////// testimonial part ////////////////////////////////////////// */
     #test_part {
