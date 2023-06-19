@@ -1095,7 +1095,6 @@ position: relative;
   padding-bottom: 3rem;
 }
 .back_video{
-  background-attachment: fixed;
   position: absolute;
   top: 0;
   right: 0;
