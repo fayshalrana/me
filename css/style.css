@@ -865,6 +865,7 @@ button:hover .icon_3 {
 .timeline {
   position: relative;
   width: 100%;
+  max-width: 1280px;
 }
 
 .timeline_item::before {
@@ -911,6 +912,9 @@ button:hover .icon_3 {
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   color: #444;
+}
+.content_text h3 a {
+  color: black;
 }
 
 .content_text span {
